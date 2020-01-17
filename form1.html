@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <th>Last Name</th>
+                    <td colspan="3"><input type="text" name="lastname" required></td>
+
+                </tr>
+                <tr>
+                    <th>First Name</th>
+                    <td colspan="3"><input type="text" name="lastname" required></td>
+
+                </tr>
+
+                <tr>
+                    <th>Adress</th>
+                    <td colspan="3"><textarea id="adress" name="adress" ></textarea></td>
+
+                </tr>
+
+                <tr>
+                    <th>City</th>
+                    <td><input type="text" name="lastname" required></td>
+                    <th>State</th>
+                    <td><input type="text" name="lastname" required></td>
+
+                </tr>
+
+                <tr>
+                    <th>Zip/Postal Code</th>
+                    <td colspan="3"><input type="text" name="zip" id="zip" required></td>
+
+                </tr>
+
+                <tr>
+                    <th>Country</th>
+                    <td colspan="3">
+                        <select name="country" id="country">
+                            <option value="ro">Romania</option>
+                            <option value="md">Moldova</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Phone(country code,area code,number)</th>
+                    <td colspan="3">
+                        <div id="phone">
+                        (+<input type="text" id="p1"/>) <input type="text" id="p2" />- <input type="text"/>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Starting Date</th>
+                    <td colspan="3">
+                        <div id="startd">
+                        Spring 2016<input type="radio" name="start" id="start"> 
+                        Summer 2016<input type="radio" name="start" id="start">
+                    </div>
+                </td>
+                </tr>
+
+                <tr>
+                    <th>Comments</th>
+                    <td colspan="3">
+                        <textarea name="Com" id="com" placeholder="Write something.." ></textarea>
+                    </td>
+                </tr>
+
+                <tr id="fin">
+                    <td colspan="4">
+                    <div id="but">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                        </td>
+                </tr>
+
+
+
+
+            </table>
+            
+        </div>
+        </form>
+    </body>
+</html>

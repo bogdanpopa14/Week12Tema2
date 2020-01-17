@@ -1,0 +1,78 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+  input {
+    width: 95%;
+    margin: 2px 2px;
+  }
+
+  textarea{
+      width: 95%;
+      height: 100px;
+      resize: none;
+      margin: 2px 2px;
+  }
+
+  #zip{
+    width: 35%;
+    margin: 2px 2px;
+  }
+
+  select {
+    width: 50%;
+    margin: 2px 2px;
+   
+    
+  }
+
+  #phone{
+    display: flex; 
+    flex-direction: row;
+  }
+  #p1
+  {
+    width: 35%;
+    margin: 2px 2px;
+  }
+
+  #p2
+  {
+    width: 35%;
+    margin: 2px 2px;
+  }
+  #startd{
+    display: flex; 
+    flex-direction: row;}
+
+#com{
+    width: 95%;
+    height: 100px;
+    resize: none;
+    margin: 2px 2px;
+}
+#but{
+    
+    display: flex; 
+    flex-direction: row;
+    width: 25%;
+    align-content: center;
+}
+
+#fin{
+    background-color: cadetblue;
+    align-self: center;
+}
+
+@font-face {font-family: "Edwardian Script ITC"; src: url("//db.onlinewebfonts.com/t/4527bde76d8fc7aed09f15a9ebfb7a75.eot"); src: url("//db.onlinewebfonts.com/t/4527bde76d8fc7aed09f15a9ebfb7a75.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4527bde76d8fc7aed09f15a9ebfb7a75.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4527bde76d8fc7aed09f15a9ebfb7a75.woff") format("woff"), url("//db.onlinewebfonts.com/t/4527bde76d8fc7aed09f15a9ebfb7a75.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4527bde76d8fc7aed09f15a9ebfb7a75.svg#Edwardian Script ITC") format("svg"); }
+
+#cs1{
+font-family: Arial, Helvetica, sans-serif;
+    color: #0094ff;
+    font-size: 40px;
+}
+#cs2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#0094ff ;
+    font-size: 20px;
+}
